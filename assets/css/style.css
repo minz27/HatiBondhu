@@ -1112,7 +1112,12 @@ section {
 --------------------------------------------------------------*/
 .contact-us .info {
   width: 100%;
+  /* background: #fff; */
+}
+
+#contact {
   background: #fff;
+  padding: 20px;
 }
 
 .contact-us .info i {
@@ -1139,7 +1144,7 @@ section {
 
 .contact-us .info p {
   padding: 0 0 0 60px;
-  margin-bottom: 0;
+  margin-bottom: 10;
   font-size: 14px;
   color: #405aa7;
 }
