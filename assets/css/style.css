@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #e8f4ea;
+  background-color: #002626;
 }
 
 a {
@@ -697,7 +697,8 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f5f7fb;
+  /* background: #f5f7fb; */
+  background: #e1ad01;
   min-height: 40px;
   margin-top: 70px;
 }
@@ -888,6 +889,7 @@ section {
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
+  background-color: #002626;
 }
 
 .event-list .card-img {
@@ -917,7 +919,7 @@ section {
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
-  color: #24325d;
+  color: #002626;
 }
 
 .event-list .card-title a {
@@ -1270,7 +1272,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #1d284b;
+  background: #e1ad01;
   color: #fff;
   font-size: 14px;
   text-align: center;
