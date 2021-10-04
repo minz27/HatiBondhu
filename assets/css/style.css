@@ -1346,3 +1346,8 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Custom styles */
+#hec-card {
+  padding: 10px;
+}
