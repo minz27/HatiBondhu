@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #002626;
+  text-align: justify;
 }
 
 a {
@@ -495,6 +496,7 @@ section {
   bottom: 1px;
   left: calc(50% - 60px);
 }
+
 
 .section-title h2::after {
   content: '';
@@ -1125,6 +1127,7 @@ section {
 #contact {
   background: #fff;
   padding: 20px;
+  padding: 40px;
 }
 
 .contact-us .info i {
@@ -1338,15 +1341,17 @@ section {
 
 #footer .credits {
   font-size: 13px;
+  color: #002626;
+  text-shadow: 0 0 0;
 }
 
 #footer .credits a {
-  color: #006fbe;
+  color: #ed3c0d;
   transition: 0.3s;
 }
 
 #footer .credits a:hover {
-  color: #008df1;
+  color: #f5f6f7;
 }
 
 .parallax-container-first {
@@ -1357,4 +1362,25 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
