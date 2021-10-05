@@ -26,6 +26,8 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  color: #002626;
+  /* text-shadow: 2px 5px 10px #e1ad01; */
 }
 
 /*--------------------------------------------------------------
@@ -406,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #006fbe;
+  background: #8B1C00;
 }
 
 #hero .btn-get-started {
@@ -422,11 +424,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #006fbe;
+  background: #8B1C00;
 }
 
 #hero .btn-get-started:hover {
-  background: #007ed8;
+  background: #8B1C00;
 }
 
 @media (max-width: 992px) {
@@ -701,6 +703,8 @@ section {
   background: #e1ad01;
   min-height: 40px;
   margin-top: 70px;
+  color: #8B1C00;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {
@@ -712,7 +716,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .breadcrumbs ol {
@@ -913,6 +917,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
+  color: #3d4e20;
 }
 
 .event-list .card-title {
@@ -928,7 +933,7 @@ section {
 }
 
 .event-list .card-text {
-  color: #5e5e5e;
+  color: #3d4e20;
 }
 
 .event-list .read-more a {
@@ -940,7 +945,7 @@ section {
 }
 
 .event-list .read-more a:hover {
-  color: #006fbe;
+  color: #e1ad01;
 }
 
 .event-list .card:hover img {
@@ -948,11 +953,11 @@ section {
 }
 
 .event-list .card:hover .card-body {
-  border-color: #006fbe;
+  border-color: #e1ad01;
 }
 
 .event-list .card:hover .card-body .card-title a {
-  color: #006fbe;
+  color: #e1ad01;
 }
 
 /*--------------------------------------------------------------
@@ -1274,6 +1279,7 @@ section {
 #footer {
   background: #e1ad01;
   color: #fff;
+  text-shadow: 0px 1px 4px #8B1C00;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1283,6 +1289,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
+  text-shadow: 0px 2px 2px #8B1C00;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -1294,6 +1301,8 @@ section {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
+  color: #002626;
+  text-shadow: 0 0 0;
 }
 
 #footer .social-links {
@@ -1323,6 +1332,8 @@ section {
 
 #footer .copyright {
   margin: 0 0 5px 0;
+  color: #002626;
+  text-shadow: 0 0 0;
 }
 
 #footer .credits {
