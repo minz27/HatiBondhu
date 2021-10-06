@@ -1,15 +1,13 @@
-/**
-* Template Name: MeFamily - v4.3.0
-* Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@font-face {
+  font-family: Dosis;
+  src: url('../fonts/Dosis-VariableFont_wght.ttf');
+}
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #444444;
   background-color: #002626;
   text-align: justify;
@@ -26,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #002626;
   /* text-shadow: 2px 5px 10px #e1ad01; */
 }
@@ -413,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -549,7 +547,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
