@@ -1384,3 +1384,11 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#community-leader{
+  width: 70%;
+  height: 1px;
+  background: #006fbe;
+  margin: auto;
+  margin-bottom: 50px;
+}
