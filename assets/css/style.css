@@ -11,7 +11,7 @@ body {
   color: #444444;
   background-color: #002626;
   text-align: justify;
-  font-size: medium;
+  font-weight: 500;
 }
 
 a {
@@ -1392,4 +1392,13 @@ section {
   background: #006fbe;
   margin: auto;
   margin-bottom: 50px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+#header img {
+  margin-bottom: 0px;
+
 }
