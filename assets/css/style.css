@@ -986,13 +986,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #fff;
   margin-bottom: 5px;
   transition: all 0.3s;
 }
 
 .gallery #gallery-flters li:hover, .gallery #gallery-flters li.filter-active {
-  color: #006fbe;
+  color: #499dda;
 }
 
 .gallery #gallery-flters li:last-child {
